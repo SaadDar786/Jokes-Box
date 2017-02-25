@@ -7,8 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1D5ED0EA39CF87C1199E2B5 /* Pods_Jokes_BoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BFAD828E02BC99144447C4 /* Pods_Jokes_BoxTests.framework */; };
+		A9393106F09A1FAB791CE310 /* Pods_Jokes_BoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDE93E54A8C24A924B10BCD /* Pods_Jokes_BoxUITests.framework */; };
+		B6AC8C717C63BC4F1D567771 /* Pods_Jokes_Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC79FC7C43B59D13CD004186 /* Pods_Jokes_Box.framework */; };
+		E7495DB11E52E1DB00C4F877 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7495DB01E52E1DB00C4F877 /* Alamofire.framework */; };
+		E7495DB31E52E1DF00C4F877 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7495DB21E52E1DF00C4F877 /* Gloss.framework */; };
+		E7495DB51E52E1E400C4F877 /* Siesta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7495DB41E52E1E400C4F877 /* Siesta.framework */; };
+		E7495DB71E52E1E900C4F877 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7495DB61E52E1E900C4F877 /* SwiftyJSON.framework */; };
+		E7495DD41E615B2400C4F877 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7495DD21E615B2400C4F877 /* JokesViewController.swift */; };
+		E7495DD51E615B2400C4F877 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7495DD31E615B2400C4F877 /* TableViewCell.swift */; };
+		E7495DDA1E615B7800C4F877 /* JokeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7495DD81E615B7800C4F877 /* JokeRequest.swift */; };
+		E7495DDD1E615B8600C4F877 /* JokesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7495DDC1E615B8600C4F877 /* JokesService.swift */; };
+		E7495DE01E615B9600C4F877 /* JokesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7495DDE1E615B9600C4F877 /* JokesViewController.xib */; };
+		E7495DE11E615B9600C4F877 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7495DDF1E615B9600C4F877 /* TableViewCell.xib */; };
+		E7495DE31E615BB000C4F877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7495DE21E615BB000C4F877 /* ViewController.swift */; };
+		E7D7EBDC1E5031A90055F260 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7EBDB1E5031A90055F260 /* Joke.swift */; };
+		E7D7EBDE1E5031B90055F260 /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7EBDD1E5031B90055F260 /* Jokes.swift */; };
+		E7D7EBE11E50354C0055F260 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7EBE01E50354C0055F260 /* Settings.swift */; };
+		E7D7EBE31E5035670055F260 /* JokesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7EBE21E5035670055F260 /* JokesDelegate.swift */; };
+		E7D7EBED1E503C7F0055F260 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7EBEC1E503C7F0055F260 /* Utils.swift */; };
+		E7D7EBEF1E5042CC0055F260 /* JokesFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D7EBEE1E5042CC0055F260 /* JokesFacade.swift */; };
 		E7ED06FF1E5029E40034A292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ED06FE1E5029E40034A292 /* AppDelegate.swift */; };
-		E7ED07011E5029E40034A292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ED07001E5029E40034A292 /* ViewController.swift */; };
 		E7ED07041E5029E40034A292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7ED07021E5029E40034A292 /* Main.storyboard */; };
 		E7ED07061E5029E40034A292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ED07051E5029E40034A292 /* Assets.xcassets */; };
 		E7ED07091E5029E40034A292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7ED07071E5029E40034A292 /* LaunchScreen.storyboard */; };
@@ -34,9 +53,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DDE93E54A8C24A924B10BCD /* Pods_Jokes_BoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jokes_BoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309A0719A9CAAB51F58D465B /* Pods-Jokes BoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes BoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes BoxUITests/Pods-Jokes BoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52B08C1D14D02D8891E77EA6 /* Pods-Jokes Box.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes Box.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes Box/Pods-Jokes Box.release.xcconfig"; sourceTree = "<group>"; };
+		5CBF8CA05C9BD8EF8E8A9DFB /* Pods-Jokes BoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes BoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes BoxTests/Pods-Jokes BoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86BFAD828E02BC99144447C4 /* Pods_Jokes_BoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jokes_BoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		870FB8EE63B15F5F5F7844D0 /* Pods-Jokes BoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes BoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes BoxTests/Pods-Jokes BoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		88DCD6C611C493F9D98CCB78 /* Pods-Jokes Box.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes Box.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes Box/Pods-Jokes Box.debug.xcconfig"; sourceTree = "<group>"; };
+		A3DCFF7E6009118C1306A3C8 /* Pods-Jokes BoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes BoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jokes BoxUITests/Pods-Jokes BoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC79FC7C43B59D13CD004186 /* Pods_Jokes_Box.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jokes_Box.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7495DB01E52E1DB00C4F877 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Jokes_Box-bwtgzvjhvdgyidegalgihklgjzcv/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		E7495DB21E52E1DF00C4F877 /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Jokes_Box-bwtgzvjhvdgyidegalgihklgjzcv/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework"; sourceTree = "<group>"; };
+		E7495DB41E52E1E400C4F877 /* Siesta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Siesta.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Jokes_Box-bwtgzvjhvdgyidegalgihklgjzcv/Build/Products/Debug-iphonesimulator/Siesta/Siesta.framework"; sourceTree = "<group>"; };
+		E7495DB61E52E1E900C4F877 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Jokes_Box-bwtgzvjhvdgyidegalgihklgjzcv/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		E7495DD21E615B2400C4F877 /* JokesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JokesViewController.swift; path = Controllers/JokesViewController.swift; sourceTree = "<group>"; };
+		E7495DD31E615B2400C4F877 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = Controllers/TableViewCell.swift; sourceTree = "<group>"; };
+		E7495DD81E615B7800C4F877 /* JokeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JokeRequest.swift; path = Service/JokeRequest.swift; sourceTree = "<group>"; };
+		E7495DDC1E615B8600C4F877 /* JokesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JokesService.swift; path = Service/JokesService.swift; sourceTree = "<group>"; };
+		E7495DDE1E615B9600C4F877 /* JokesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JokesViewController.xib; path = UI/JokesViewController.xib; sourceTree = "<group>"; };
+		E7495DDF1E615B9600C4F877 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = UI/TableViewCell.xib; sourceTree = "<group>"; };
+		E7495DE21E615BB000C4F877 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
+		E7D7EBDB1E5031A90055F260 /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		E7D7EBDD1E5031B90055F260 /* Jokes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
+		E7D7EBE01E50354C0055F260 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E7D7EBE21E5035670055F260 /* JokesDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesDelegate.swift; sourceTree = "<group>"; };
+		E7D7EBEC1E503C7F0055F260 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E7D7EBEE1E5042CC0055F260 /* JokesFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesFacade.swift; sourceTree = "<group>"; };
 		E7ED06FB1E5029E40034A292 /* Jokes Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jokes Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ED06FE1E5029E40034A292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7ED07001E5029E40034A292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7ED07031E5029E40034A292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7ED07051E5029E40034A292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7ED07081E5029E40034A292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +98,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7495DB71E52E1E900C4F877 /* SwiftyJSON.framework in Frameworks */,
+				E7495DB51E52E1E400C4F877 /* Siesta.framework in Frameworks */,
+				E7495DB31E52E1DF00C4F877 /* Gloss.framework in Frameworks */,
+				E7495DB11E52E1DB00C4F877 /* Alamofire.framework in Frameworks */,
+				B6AC8C717C63BC4F1D567771 /* Pods_Jokes_Box.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D5ED0EA39CF87C1199E2B5 /* Pods_Jokes_BoxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +118,138 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9393106F09A1FAB791CE310 /* Pods_Jokes_BoxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1278E0084042EA311CFDD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88DCD6C611C493F9D98CCB78 /* Pods-Jokes Box.debug.xcconfig */,
+				52B08C1D14D02D8891E77EA6 /* Pods-Jokes Box.release.xcconfig */,
+				5CBF8CA05C9BD8EF8E8A9DFB /* Pods-Jokes BoxTests.debug.xcconfig */,
+				870FB8EE63B15F5F5F7844D0 /* Pods-Jokes BoxTests.release.xcconfig */,
+				309A0719A9CAAB51F58D465B /* Pods-Jokes BoxUITests.debug.xcconfig */,
+				A3DCFF7E6009118C1306A3C8 /* Pods-Jokes BoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		985D4BFCFDA7B3302683BCA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DB61E52E1E900C4F877 /* SwiftyJSON.framework */,
+				E7495DB41E52E1E400C4F877 /* Siesta.framework */,
+				E7495DB21E52E1DF00C4F877 /* Gloss.framework */,
+				E7495DB01E52E1DB00C4F877 /* Alamofire.framework */,
+				CC79FC7C43B59D13CD004186 /* Pods_Jokes_Box.framework */,
+				86BFAD828E02BC99144447C4 /* Pods_Jokes_BoxTests.framework */,
+				0DDE93E54A8C24A924B10BCD /* Pods_Jokes_BoxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7495DBB1E530B4E00C4F877 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DD81E615B7800C4F877 /* JokeRequest.swift */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		E7D7EBCD1E502F820055F260 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DBB1E530B4E00C4F877 /* Request */,
+				E7D7EBE41E5038810055F260 /* Service */,
+				E7D7EBDF1E5035310055F260 /* Config */,
+				E7D7EBDA1E5031740055F260 /* Facade */,
+				E7D7EBD91E50316E0055F260 /* Models */,
+			);
+			name = "Web Services";
+			sourceTree = "<group>";
+		};
+		E7D7EBCE1E502F9A0055F260 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7EBCF1E502FA50055F260 /* Jokes */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		E7D7EBCF1E502FA50055F260 /* Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7EBD01E502FAA0055F260 /* Controllers */,
+			);
+			name = Jokes;
+			sourceTree = "<group>";
+		};
+		E7D7EBD01E502FAA0055F260 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DE21E615BB000C4F877 /* ViewController.swift */,
+				E7495DDE1E615B9600C4F877 /* JokesViewController.xib */,
+				E7495DDF1E615B9600C4F877 /* TableViewCell.xib */,
+				E7495DD21E615B2400C4F877 /* JokesViewController.swift */,
+				E7495DD31E615B2400C4F877 /* TableViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E7D7EBD91E50316E0055F260 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7EBDB1E5031A90055F260 /* Joke.swift */,
+				E7D7EBDD1E5031B90055F260 /* Jokes.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E7D7EBDA1E5031740055F260 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7EBEE1E5042CC0055F260 /* JokesFacade.swift */,
+			);
+			name = Facade;
+			sourceTree = "<group>";
+		};
+		E7D7EBDF1E5035310055F260 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7EBE01E50354C0055F260 /* Settings.swift */,
+				E7D7EBE21E5035670055F260 /* JokesDelegate.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		E7D7EBE41E5038810055F260 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E7495DDC1E615B8600C4F877 /* JokesService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		E7D7EBEA1E503C610055F260 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7EBEB1E503C6D0055F260 /* Utility */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E7D7EBEB1E503C6D0055F260 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E7D7EBEC1E503C7F0055F260 /* Utils.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		E7ED06F21E5029E40034A292 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +257,8 @@
 				E7ED07121E5029E40034A292 /* Jokes BoxTests */,
 				E7ED071D1E5029E40034A292 /* Jokes BoxUITests */,
 				E7ED06FC1E5029E40034A292 /* Products */,
+				4F1278E0084042EA311CFDD4 /* Pods */,
+				985D4BFCFDA7B3302683BCA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +275,10 @@
 		E7ED06FD1E5029E40034A292 /* Jokes Box */ = {
 			isa = PBXGroup;
 			children = (
+				E7D7EBEA1E503C610055F260 /* Utilities */,
+				E7D7EBCE1E502F9A0055F260 /* Modules */,
+				E7D7EBCD1E502F820055F260 /* Web Services */,
 				E7ED06FE1E5029E40034A292 /* AppDelegate.swift */,
-				E7ED07001E5029E40034A292 /* ViewController.swift */,
 				E7ED07021E5029E40034A292 /* Main.storyboard */,
 				E7ED07051E5029E40034A292 /* Assets.xcassets */,
 				E7ED07071E5029E40034A292 /* LaunchScreen.storyboard */,
@@ -132,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7ED07231E5029E40034A292 /* Build configuration list for PBXNativeTarget "Jokes Box" */;
 			buildPhases = (
+				83ECDA260C328C97BED15035 /* [CP] Check Pods Manifest.lock */,
 				E7ED06F71E5029E40034A292 /* Sources */,
 				E7ED06F81E5029E40034A292 /* Frameworks */,
 				E7ED06F91E5029E40034A292 /* Resources */,
+				5BFF35E1F91BA2BF783A78C1 /* [CP] Embed Pods Frameworks */,
+				B4F5D1F63BB207EEB09CE104 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7ED07261E5029E40034A292 /* Build configuration list for PBXNativeTarget "Jokes BoxTests" */;
 			buildPhases = (
+				5973E06BC5C4B35E781CA0E8 /* [CP] Check Pods Manifest.lock */,
 				E7ED070B1E5029E40034A292 /* Sources */,
 				E7ED070C1E5029E40034A292 /* Frameworks */,
 				E7ED070D1E5029E40034A292 /* Resources */,
+				6368772FA38140D60A435100 /* [CP] Embed Pods Frameworks */,
+				CFEE519B3DB1776AC9374F48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7ED07291E5029E40034A292 /* Build configuration list for PBXNativeTarget "Jokes BoxUITests" */;
 			buildPhases = (
+				3E71E3269763E1CC8EDAE347 /* [CP] Check Pods Manifest.lock */,
 				E7ED07161E5029E40034A292 /* Sources */,
 				E7ED07171E5029E40034A292 /* Frameworks */,
 				E7ED07181E5029E40034A292 /* Resources */,
+				7063919B9675EC1F94D0DA80 /* [CP] Embed Pods Frameworks */,
+				8A2B73C29F196213A4FD4014 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7ED07091E5029E40034A292 /* LaunchScreen.storyboard in Resources */,
+				E7495DE11E615B9600C4F877 /* TableViewCell.xib in Resources */,
 				E7ED07061E5029E40034A292 /* Assets.xcassets in Resources */,
 				E7ED07041E5029E40034A292 /* Main.storyboard in Resources */,
+				E7495DE01E615B9600C4F877 /* JokesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +445,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E71E3269763E1CC8EDAE347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5973E06BC5C4B35E781CA0E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BFF35E1F91BA2BF783A78C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes Box/Pods-Jokes Box-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6368772FA38140D60A435100 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes BoxTests/Pods-Jokes BoxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7063919B9675EC1F94D0DA80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes BoxUITests/Pods-Jokes BoxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83ECDA260C328C97BED15035 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A2B73C29F196213A4FD4014 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes BoxUITests/Pods-Jokes BoxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F5D1F63BB207EEB09CE104 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes Box/Pods-Jokes Box-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFEE519B3DB1776AC9374F48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jokes BoxTests/Pods-Jokes BoxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7ED06F71E5029E40034A292 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7ED07011E5029E40034A292 /* ViewController.swift in Sources */,
+				E7495DDA1E615B7800C4F877 /* JokeRequest.swift in Sources */,
+				E7495DD51E615B2400C4F877 /* TableViewCell.swift in Sources */,
+				E7D7EBDC1E5031A90055F260 /* Joke.swift in Sources */,
+				E7495DE31E615BB000C4F877 /* ViewController.swift in Sources */,
+				E7D7EBEF1E5042CC0055F260 /* JokesFacade.swift in Sources */,
+				E7495DD41E615B2400C4F877 /* JokesViewController.swift in Sources */,
+				E7D7EBE11E50354C0055F260 /* Settings.swift in Sources */,
+				E7495DDD1E615B8600C4F877 /* JokesService.swift in Sources */,
+				E7D7EBED1E503C7F0055F260 /* Utils.swift in Sources */,
+				E7D7EBE31E5035670055F260 /* JokesDelegate.swift in Sources */,
+				E7D7EBDE1E5031B90055F260 /* Jokes.swift in Sources */,
 				E7ED06FF1E5029E40034A292 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +749,7 @@
 		};
 		E7ED07241E5029E40034A292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DCD6C611C493F9D98CCB78 /* Pods-Jokes Box.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jokes Box/Info.plist";
@@ -422,6 +762,7 @@
 		};
 		E7ED07251E5029E40034A292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B08C1D14D02D8891E77EA6 /* Pods-Jokes Box.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jokes Box/Info.plist";
@@ -434,6 +775,7 @@
 		};
 		E7ED07271E5029E40034A292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBF8CA05C9BD8EF8E8A9DFB /* Pods-Jokes BoxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +790,7 @@
 		};
 		E7ED07281E5029E40034A292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870FB8EE63B15F5F5F7844D0 /* Pods-Jokes BoxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +805,7 @@
 		};
 		E7ED072A1E5029E40034A292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309A0719A9CAAB51F58D465B /* Pods-Jokes BoxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Jokes BoxUITests/Info.plist";
@@ -475,6 +819,7 @@
 		};
 		E7ED072B1E5029E40034A292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DCFF7E6009118C1306A3C8 /* Pods-Jokes BoxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Jokes BoxUITests/Info.plist";
@@ -505,6 +850,7 @@
 				E7ED07251E5029E40034A292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7ED07261E5029E40034A292 /* Build configuration list for PBXNativeTarget "Jokes BoxTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +859,7 @@
 				E7ED07281E5029E40034A292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7ED07291E5029E40034A292 /* Build configuration list for PBXNativeTarget "Jokes BoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +868,7 @@
 				E7ED072B1E5029E40034A292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_Jokes_BoxUITests {
+  umbrella header "Pods-Jokes BoxUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,14 +8,29 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var jokesController: JokesViewController?
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: (UIScreen .main) .bounds)
+        
+         // Override point for customization after application launch.
+        window?.backgroundColor = (UIColor .white)
+        jokesController = JokesViewController(nibName: "JokesViewController", bundle: nil)
+        let navigationController = UINavigationController(rootViewController: jokesController!)
+        
+        window?.rootViewController = navigationController;
+        (window? .makeKeyAndVisible())
+
+       
         return true
     }
 
