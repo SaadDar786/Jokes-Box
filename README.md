@@ -1,7 +1,7 @@
 # Jokes-Box
 Jokes Box (Swift)
 
-This is a simple application which fetches the Jokes from icndb and displayes on the. I have tried to cover the following in this project. This project will help in simplyfing the use and integration of Alamofire and Gloss used to map object from json response. The implementation of MVC and last but not the least, the dependancy managment of the framework through coca pods.
+This is a simple application which fetches the Jokes from icndb and displays on the screen. I have tried to cover the following in this project. This project will help in simplyfing the use and integration of Alamofire and Gloss used to map object from json response. The implementation of MVC and last but not the least, the dependancy managment of the framework through coca pods.
 
 # Controls
  1. TableViewController
